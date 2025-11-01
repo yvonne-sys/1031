@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>可領養動物</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html" class="nav__link">首頁</a>
+    <a href="animals.html" class="nav__link">可領養動物</a>
+    <a href="adopt.html" class="nav__link">我要領養</a>
+    <a href="contact.html" class="nav__link">聯絡我們</a>
+  </nav>
+
+  <div class="container">
+    <h1>🐾 可領養的毛孩們</h1>
+    <p style="text-align:center;">看看牠們的笑容，也許有一隻正等著你 💕</p>
+
+  <div class="gallery">
+  <!-- 小福 -->
+  <div class="animal-card">
+    <img src="images/柴犬.png" alt="柴犬小福" class="animal-img" onclick="document.getElementById('info1').showModal()">
+    <p>🐶 柴犬小福</p>
+  </div>
+
+  <dialog id="info1" class="animal-dialog">
+    <h2>🐶 柴犬小福</h2>
+    <img src="images/柴犬.png" alt="柴犬小福" class="dialog-img">
+    <p>年齡：約 2 歲<br>個性：活潑、喜歡曬太陽 ☀️<br>健康狀況：已結紮，定期施打疫苗</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+
+  <!-- 阿寶 -->
+  <div class="animal-card">
+    <img src="images/米克斯.png" alt="米克斯阿寶" class="animal-img" onclick="document.getElementById('info2').showModal()">
+    <p>🐾 米克斯阿寶</p>
+  </div>
+
+  <dialog id="info2" class="animal-dialog">
+    <h2>🐾 米克斯阿寶</h2>
+    <img src="images/米克斯.png" alt="米克斯阿寶" class="dialog-img">
+    <p>年齡：約 3 歲<br>個性：忠誠、有點害羞 🐕🦺<br>健康狀況：已接種疫苗</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+
+
+  <!-- 小米 -->
+  <div class="animal-card">
+    <img src="images/橘貓.png" alt="橘貓小米" class="animal-img" onclick="document.getElementById('info3').showModal()">
+    <p>😺 橘貓小米</p>
+  </div>
+
+  <dialog id="info3" class="animal-dialog">
+    <h2> 😺 橘貓小米</h2>
+    <img src="images/橘貓.png" alt="橘貓小米" class="dialog-img">
+    <p>年齡：約 3 歲<br>個性：忠誠、有點害羞 🐕🦺<br>健康狀況：已接種疫苗</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+
+  <!-- 露西 -->
+  <div class="animal-card">
+    <img src="images/奶牛貓.png" alt="奶牛貓露西" class="animal-img" onclick="document.getElementById('info4').showModal()">
+    <p>🐈 奶牛貓露西</p>
+  </div>
+
+  <dialog id="info4" class="animal-dialog">
+    <h2> 🐈 奶牛貓露西</h2>
+    <img src="images/奶牛貓.png" alt="奶牛貓露西" class="dialog-img">
+    <p>年齡：約 2 歲<br>個性：調皮、好奇寶寶 🐕🦺<br>健康狀況：已接種疫苗</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+
+  <!-- 多多 -->
+  <div class="animal-card">
+    <img src="images/拉不拉多.png" alt="拉不拉多多多" class="animal-img" onclick="document.getElementById('info5').showModal()">
+    <p>🐕 拉不拉多多多</p>
+  </div>
+
+  <dialog id="info5" class="animal-dialog">
+    <h2>🐕 拉不拉多多多</h2>
+    <img src="images/拉不拉多.png" alt="拉不拉多多多" class="dialog-img">
+    <p>年齡：約 3 個 月<br>個性：忠誠、聽話 🐕🦺<br>健康狀況：已接種疫苗</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+
+<!-- 黑澤 -->
+  <div class="animal-card">
+    <img src="images/黑貓.png" alt="黑貓黑澤" class="animal-img" onclick="document.getElementById('info6').showModal()">
+    <p>🐈‍⬛ 黑貓黑澤</p>
+  </div>
+
+  <dialog id="info6" class="animal-dialog">
+    <h2>🐈‍⬛ 黑貓黑澤</h2>
+    <img src="images/黑貓.png" alt="黑貓黑澤" class="dialog-img">
+    <p>年齡：約 3 歲<br>個性：溫順、高冷 🐕🦺<br>健康狀況：已接種疫苗</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+
+<!-- 奶油 -->
+  <div class="animal-card">
+    <img src="images/倉鼠.png" alt="倉鼠奶油" class="animal-img" onclick="document.getElementById('info7').showModal()">
+    <p>🐹 倉鼠奶油</p>
+  </div>
+
+  <dialog id="info7" class="animal-dialog">
+    <h2>🐹 倉鼠奶油</h2>
+    <img src="images/倉鼠.png" alt="倉鼠奶油" class="dialog-img">
+    <p>年齡：約 4 個 月<br>個性:有點膽小 🐕🦺<br>健康狀況：已接種疫苗</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+
+<!-- 棉花糖 -->
+  <div class="animal-card">
+    <img src="images/兔子.png" alt="兔子棉花糖" class="animal-img" onclick="document.getElementById('info8').showModal()">
+    <p>🐇 兔子棉花糖</p>
+  </div>
+
+  <dialog id="info8" class="animal-dialog">
+    <h2>🐇 兔子棉花糖</h2>
+    <img src="images/兔子.png" alt="兔子棉花糖" class="dialog-img">
+    <p>年齡：約 3 個 月<br>個性：溫順、活潑 🐕🦺<br>健康狀況：已接種疫苗</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+
+<!-- 天天 -->
+  <div class="animal-card">
+    <img src="images/鸚鵡.png" alt="鸚鵡天天" class="animal-img" onclick="document.getElementById('info9').showModal()">
+    <p>🦜 鸚鵡天天</p>
+  </div>
+
+  <dialog id="info9" class="animal-dialog">
+    <h2>🦜 鸚鵡天天</h2>
+    <img src="images/鸚鵡.png" alt=" 鸚鵡天天" class="dialog-img">
+    <p>年齡：約 5 個 月<br>個性：聒噪、過於活潑 🐕🦺<br>健康狀況：已接種疫苗</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+</div>
+
+  <footer>
+    © 2025 幸福毛孩領養園地 | 傳遞愛，從領養開始 🐾
+  </footer>
+</body>
+</html>
